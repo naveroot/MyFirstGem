@@ -4,5 +4,5 @@ require_relative "MyFirstGem/version"
 
 module MyFirstGem
   class Error < StandardError; end
-  # Your code goes here...
+  require 'MyFirstGem/Welcome/greetings'
 end
